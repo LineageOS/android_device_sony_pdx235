@@ -8,6 +8,11 @@ include device/sony/sm6375-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx235
 
+# Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/device/iio:device4/in_index_battery_smart_charging_interruption_input
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
+
 # Kernel
 TARGET_KERNEL_CONFIG += diffconfig/pdx235.config
 
