@@ -220,6 +220,9 @@ vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libtriplecam_zoomtranslator_imp.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
+# Charger
+vendor/bin/charge_service
+
 # Display calibration data
 vendor/etc/qdcm_calib_data_samsung_amoled_fhd_cmd_dsi_panel.xml
 
