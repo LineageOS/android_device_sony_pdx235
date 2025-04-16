@@ -19,5 +19,8 @@ TARGET_KERNEL_CONFIG += diffconfig/pdx235.config
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 33
+
 # Include the proprietary files BoardConfig.
 include vendor/sony/pdx235/BoardConfigVendor.mk
