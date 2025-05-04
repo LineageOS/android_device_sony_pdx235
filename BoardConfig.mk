@@ -17,7 +17,6 @@ TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
 TARGET_KERNEL_CONFIG += diffconfig/pdx235.config
 
 # Properties
-TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Include the proprietary files BoardConfig.
