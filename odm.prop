@@ -1,3 +1,2 @@
 # Bluetooth
-persist.bluetooth.a2dp_offload.disabled=true
 persist.vendor.qcom.bluetooth.scram.enabled=true
